@@ -1,0 +1,31 @@
+.footerText{
+  font-family: "Lucida Console", "Courier New", monospace;
+  text-align: left;
+  color: #055be6;
+}
+
+img{
+    height: 100px;
+}
+
+a{
+    font-family: "Lucida Console", "Courier New", monospace;
+}
+body{
+    background-color: #053f7d;
+}
+h3{
+    font-family: "Locida Console", "Courier New", monospace;
+    color: yellow;
+    background-color: #053f7d;
+}
+input{
+    font-family: "Locida Console", "Courier New", monospace;
+    color: #06b81d;
+    background-color: #053f7d;
+    border-radius: 12px;
+    border: 2px solid green;
+}
+h1{
+  color: #579ade;
+}
