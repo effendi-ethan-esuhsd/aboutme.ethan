@@ -60,7 +60,7 @@ window.addEventListener("keypress", function(e){
 						currentDiv.append(myIframe);
         } else if (currentInputValue === "bio") {
 						const bioIframe = document.createElement("iframe");
-						bioIframe.src="https://effendi-ethan-esuhsd.github.io/aboutme.ethan/bioPage.html";
+						bioIframe.src="bioPage.html";
 						bioIframe.frameborder="0";
 						bioIframe.width="50px";
 						bioIframe.height="1000em";
