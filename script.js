@@ -71,6 +71,12 @@ window.addEventListener("keypress", function(e){
 						bioIframe.width="50px";
 						bioIframe.height="1000em";
 						currentDiv.append(kahkai);
+        } else if (currentInputValue === "CaydenKahKaiYap") {
+						const kahkai = document.createElement("img");
+						bioIframe.src="https://media.discordapp.net/attachments/1162123155167510571/1168967444430332044/PXL_20231031_152220010.jpg?ex=65944a45&is=6581d545&hm=414ac07790853dcc2bda0cdbb3aeaf521b314eacae05496474f1eb07bd8856f9&=&width=862&height=1150";
+						bioIframe.width="50px";
+						bioIframe.height="1000em";
+						currentDiv.append(kahkai);
         }
 
 
