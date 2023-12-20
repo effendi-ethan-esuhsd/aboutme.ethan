@@ -27,11 +27,11 @@ input{
   color: lightblue;
 }
 
-#bubbleSpace{
+.bubbleSpace{
   border-radius: 12px;
   height: 40em;
   width: 35em;
-  margin: 20px, 20px, 20px, 20px;
+  margin: 10px 10px 10px 70px;
 }
 
 .landingPageText{
