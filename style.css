@@ -49,3 +49,17 @@ input{
   color: lightgray;
   text-align: center;
 }
+
+
+@keyframes button-animation{
+  from{
+    filter: invert(0%);
+  }
+  to{
+    filter: invert(80%);
+  }
+}
+
+.animatedButton:hover{
+  animation: button-animation 3s forwards;
+}
