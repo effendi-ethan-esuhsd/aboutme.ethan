@@ -8,6 +8,7 @@ window.addEventListener("keypress", function(e){
         if (currentInputValue === "about age") {
             const newh1 = document.createElement("h1")
             const newText = document.createTextNode("14")
+            newh1.classList.add("jsText")
             newh1.append(newText)
 						const newBr = document.createElement("br")
 						currentDiv.append(newBr)
@@ -15,6 +16,7 @@ window.addEventListener("keypress", function(e){
         } else if (currentInputValue === "about name") {
 						const newh1 = document.createElement("h1")
 						const newText = document.createTextNode("Ethan Effendi")
+            newh1.classList.add("jsText")
 						newh1.append(newText)
 						const newBr = document.createElement("br")
 						currentDiv.append(newBr)
@@ -22,6 +24,7 @@ window.addEventListener("keypress", function(e){
         } else if (currentInputValue === "about residence") {
 						const newh1 = document.createElement("h1")
 						const newText = document.createTextNode("San Jose, California")
+            newh1.classList.add("jsText")
 						newh1.append(newText)
 						const newBr = document.createElement("br")
 						currentDiv.append(newBr)
@@ -29,12 +32,14 @@ window.addEventListener("keypress", function(e){
         } else if (currentInputValue === "about school") {
 						const newh1 = document.createElement("h1")
 						const newText = document.createTextNode("Piedmont Hills High School @ ESUHSD")
+            newh1.classList.add("jsText")
 						newh1.append(newText)
 						const newBr = document.createElement("br")
 						currentDiv.append(newBr)
 						currentDiv.append(newh1)
         } else if (currentInputValue === "about email") {
 						const newh1 = document.createElement("h1")
+            newh1.classList.add("jsText")
 						const newText = document.createTextNode("effendiethan8170@students.esuhsd.org")
 						newh1.append(newText)
 						const newBr = document.createElement("br")
@@ -43,6 +48,7 @@ window.addEventListener("keypress", function(e){
         }  else if (currentInputValue === "about birth") {
 						const newh1 = document.createElement("h1")
 						const newText = document.createTextNode("January")
+            newh1.classList.add("jsText")
 						newh1.append(newText)
 						const newBr = document.createElement("br")
 						currentDiv.append(newBr)
@@ -62,8 +68,7 @@ window.addEventListener("keypress", function(e){
 						const bioIframe = document.createElement("iframe");
 						bioIframe.src="https://effendi-ethan-esuhsd.github.io/aboutme.ethan/bioPage.html";
 						bioIframe.frameborder="0";
-						bioIframe.width="50px";
-						bioIframe.height="1000em";
+
 						currentDiv.append(bioIframe);
         } else if (currentInputValue === "CaydenKahKaiYapPanorama") {
 						const kahkai = document.createElement("img");

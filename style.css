@@ -13,6 +13,11 @@ h3{
     color: yellow;
     background-color: #053f7d;
 }
+h1.jsText{
+    font-family: "Lucida Console", "Courier New", monospace;
+    color: yellow;
+    background-color: #053f7d;
+}
 input{
     font-family: "Lucida Console", "Courier New", monospace;
     color: #06b81d;
@@ -72,9 +77,14 @@ input{
 }
 
 .aboutBox:hover{
-  animation: aboutBoxAnimation 2s forwards; 
+  animation: aboutBoxAnimation 2s forwards;
 }
 
 .animatedButton:hover{
   animation: button-animation 2s forwards;
+}
+
+iframe{
+  height: -webkit-fill-available;
+
 }
