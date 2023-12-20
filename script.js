@@ -49,7 +49,7 @@ window.addEventListener("keypress", function(e){
 						currentDiv.append(newh1)
         } else if (currentInputValue === "bio") {
             const newIframe = document.createElement("iframe")
-            newIframe.src="bio.html"
+            newIframe.src="bioPage.html"
             currentDiv.append(newIframe)
         } else if (currentInputValue === "entertainment") {
 						const myIframe = document.createElement("iframe");
