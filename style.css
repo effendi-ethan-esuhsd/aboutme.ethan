@@ -59,3 +59,18 @@ input{
     filter: invert(80%);
   }
 }
+
+
+@keyframes aboutBoxAnimation{
+  from{
+    background-color: #f29d16;
+  }
+
+  to{
+    background-color: #e33302;
+  }
+}
+
+.aboutBox:hover{
+  animation: aboutBoxAnimation 1s forwards;
+}
