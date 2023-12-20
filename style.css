@@ -67,10 +67,11 @@ input{
   }
 
   to{
-    background-color: #e33302;
+    background-color: #fc3903
   }
 }
 
-.aboutBox:hover{
-  animation: aboutBoxAnimation 1s forwards;
+
+.animatedButton:hover{
+  animation: button-animation 2s forwards; 
 }
