@@ -71,7 +71,10 @@ input{
   }
 }
 
+.aboutBox:hover{
+  animation: aboutBoxAnimation 2s forwards; 
+}
 
 .animatedButton:hover{
-  animation: button-animation 2s forwards; 
+  animation: button-animation 2s forwards;
 }
