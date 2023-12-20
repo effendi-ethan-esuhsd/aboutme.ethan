@@ -59,7 +59,3 @@ input{
     filter: invert(80%);
   }
 }
-
-.animatedButton:hover{
-  animation: button-animation 3s forwards;
-}
